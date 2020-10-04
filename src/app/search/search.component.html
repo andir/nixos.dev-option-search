@@ -1,0 +1,11 @@
+<form [formGroup]="form">
+  <input
+    formControlName="searchText"
+    type="text"
+    appFocusOnInit
+  />
+</form>
+<p>Reading data from {{ indexFile }}</p>
+<ul *ngFor="let result of results">
+  <li>{{ result.path }} - {{ result.description }}</li>
+</ul>

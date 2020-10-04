@@ -1,0 +1,26 @@
+{
+    "nixpkgs": {
+        "branch": "nixos-unstable",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e0759a49733dfc3aa225b8a7423c00da6e1ecb67",
+        "sha256": "1lnaifrbdmvbmz25404z7xpfwaagscs1i80805fyrrs1g27h21qb",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/e0759a49733dfc3aa225b8a7423c00da6e1ecb67.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "npmlock2nix": {
+        "branch": "master",
+        "description": null,
+        "homepage": null,
+        "owner": "andir",
+        "repo": "npmlock2nix",
+        "rev": "69ebe1d10404d3295cab5840a10223b736db9c6e",
+        "sha256": "07v33a85whi953kwdxy0smp8vs214d1i65vwykqhchlviyilxs0z",
+        "type": "tarball",
+        "url": "https://github.com/andir/npmlock2nix/archive/69ebe1d10404d3295cab5840a10223b736db9c6e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
